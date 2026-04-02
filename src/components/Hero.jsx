@@ -277,7 +277,7 @@ const Hero = () => {
         >
           {/* Download Resume Button */}
           <motion.a
-            href="/ADWAITH-resume.pdf"
+            href="/ADWAITHSRAJEEV.pdf"
             download
             className="px-6 py-3 bg-transparent border-2 border-neon-green text-neon-green font-mono font-semibold rounded-lg hover:bg-neon-green hover:text-dark-bg transition-all duration-300 shadow-lg shadow-neon-green/20 hover:shadow-neon-green/40"
             whileHover={{ scale: 1.05 }}
