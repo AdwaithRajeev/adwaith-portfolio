@@ -1,4 +1,4 @@
-import resume from "../assets/ADWAITHSRAJEEV.pdf";
+import resume from "../assets/resume.pdf";
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
