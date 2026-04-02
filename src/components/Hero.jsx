@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
   const [showCursor, setShowCursor] = useState(true);
-  const fullText = '> building scalable web applications with MERN';
+  const fullText = '> Building Scalable Web Applications With MERN';
 
   useEffect(() => {
     let currentIndex = 0;
