@@ -1,4 +1,4 @@
-# Adwaith S Rajeev - Portfolio
+updated # Adwaith S Rajeev - Portfolio
 
 A modern, minimalist, fully responsive Full Stack MERN Developer portfolio built with React, Tailwind CSS, and Framer Motion.
 
