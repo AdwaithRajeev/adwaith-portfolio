@@ -1,3 +1,4 @@
+import resume from "../assets/ADWAITHSRAJEEV.pdf";
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
@@ -277,7 +278,7 @@ const Hero = () => {
         >
           {/* Download Resume Button */}
           <motion.a
-            href="/ADWAITHSRAJEEV.pdf"
+            href={resume}
             download
             className="px-6 py-3 bg-transparent border-2 border-neon-green text-neon-green font-mono font-semibold rounded-lg hover:bg-neon-green hover:text-dark-bg transition-all duration-300 shadow-lg shadow-neon-green/20 hover:shadow-neon-green/40"
             whileHover={{ scale: 1.05 }}
