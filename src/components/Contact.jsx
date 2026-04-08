@@ -10,8 +10,8 @@ const Contact = () => {
     {
       name: 'Email',
       icon: '📧',
-      url: 'mailto:adwaith@example.com',
-      label: 'adwaith@example.com',
+      url: 'mailto:adwaithrajeev2003@gmail.com',
+      label: 'adwaithrajeev2003@gmail.com',
     },
     {
       name: 'GitHub',
