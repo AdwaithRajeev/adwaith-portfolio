@@ -290,7 +290,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <motion.a
-              href="https://linkedin.com/in/adwaith"
+              href="https://www.linkedin.com/in/adwaith-s-rajeev-aa723434a/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 flex items-center justify-center border-2 border-neon-green/50 rounded-lg hover:border-neon-green hover:bg-neon-green/10 transition-all duration-300"
