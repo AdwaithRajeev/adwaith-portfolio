@@ -29,10 +29,10 @@ const Skills = () => {
             description: 'Semantic markup',
           },
           {
-            name: 'CSS',
-            icon: 'https://cdn.simpleicons.org/css3/1572B6',
-            color: '#1572B6',
-            description: 'Responsive UI styling',
+           name: "CSS",
+icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+color: "#1572B6",
+description: "Responsive UI styling",
           },
           {
             name: 'JavaScript',
@@ -72,12 +72,7 @@ const Skills = () => {
             color: '#3776AB',
             description: 'Backend scripting',
           },
-          {
-            name: 'Flask',
-            icon: 'https://cdn.simpleicons.org/flask/ffffff',
-            color: '#ffffff',
-            description: 'Python microframework',
-          },
+
           {
             name: 'MongoDB',
             icon: 'https://cdn.simpleicons.org/mongodb/00ED64',

@@ -6,14 +6,33 @@ const Projects = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
-  const projects = [
-    {
-      title: 'Job Portal Application',
-      techStack: 'React, Node.js, Express, MongoDB',
-      description:
-        'Role-based job listing platform with authentication, allowing employers to post jobs and candidates to apply seamlessly.',
-    },
-  ];
+const projects = [
+  {
+    title: 'FleetDash (Ongoing)',
+    techStack: 'MongoDB • Express.js • React • Node.js • Mongoose • REST API',
+    description:
+      'A full-stack fleet management system built using the MERN stack. Includes backend APIs, MongoDB database integration, vehicle management, and follows the MVC architecture.',
+  },
+  {
+    title: 'Portfolio Website',
+    techStack: 'React • Vite • Tailwind CSS • Framer Motion',
+    description:
+      'A responsive personal portfolio showcasing my skills, projects, certifications, and contact information with a modern hacker-inspired UI.',
+  },
+  {
+  title: 'Talent Tap',
+  techStack: 'Python • HTML • CSS • JavaScript • MySQL ',
+  description:
+    'A college major project that connects students with part-time job opportunities based on their skills. Features include user authentication, job posting, job applications, skill-based recommendations, notifications, and payment management through dedicated student and job provider modules.',
+},
+  {
+    title: 'Tiny Backend Demo',
+    techStack: 'Node.js • Express.js • MySQL',
+    description:
+      'A backend application demonstrating REST APIs, CRUD operations, routing, and MySQL database connectivity using Express.js.',
+  },
+ 
+];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -49,7 +68,7 @@ const Projects = () => {
         {'> projects'}
       </motion.h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
         {projects.map((project, index) => (
           <motion.div
             key={index}
